@@ -38,4 +38,4 @@ RUN mamba create -n nicheformer_env python=3.11 -y && mamba run -n nicheformer_e
 # jupyter notebook
 EXPOSE 8888
 #CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
-CMD ["python", "tests/test_scgen.py"]
+CMD ["python3"]
